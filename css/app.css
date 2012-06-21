@@ -1,0 +1,25 @@
+.debt-list-name {
+	font-weight: bold;
+	display: inline;
+}
+
+.debt-list-active {
+	background-image: url('../images/check.jpg');
+	width: 24px;
+	height: 24px;
+	display: inline-block;
+	float: right;
+}
+
+.debt-list-active.false {
+	opacity: 0.4;
+	-moz-opacity: 0.4;
+	filter:alpha(opacity=4);
+}
+
+#debt-list .x-list-disclosure {
+	-webkit-mask: none !important;
+	width: 24px !important;
+	height: 24px !important;
+	background-image: url('../images/check.jpg') !important;
+}
